@@ -1,0 +1,18 @@
+project/
+│
+├── models/
+│   └── User.js
+├── controllers/
+│   └── userController.js
+├── views/
+│   └── register.ejs
+├── routes/
+│   └── userRoutes.js
+├── config/
+│   └── db.js
+├── public/
+│   └── styles.css
+├── .env
+├── app.js
+├── package.json
+└── README.md

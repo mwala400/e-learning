@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa; /* Light teal background */
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  background: #2c3e50; /* Dark blue-gray for navigation */
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav a {
+  color: #ecf0f1; /* Light grayish text */
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  color: #f39c12; /* Vibrant yellow on hover */
+  transform: scale(1.1); /* Slight scale on hover for emphasis */
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #34495e; /* Darker color for the heading */
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* Dashboard Box Styles */
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.dashboard-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+/* Unique Colors for Boxes */
+.dashboard-box:nth-child(1) {
+  background-color: #3498db; /* Vibrant blue */
+}
+
+.dashboard-box:nth-child(2) {
+  background-color: #2ecc71; /* Fresh green */
+}
+
+.dashboard-box:nth-child(3) {
+  background-color: #e74c3c; /* Bright red */
+}
+
+.dashboard-box:nth-child(4) {
+  background-color: #f39c12; /* Vibrant orange */
+}
+
+.dashboard-box:nth-child(5) {
+  background-color: #9b59b6; /* Elegant purple */
+}
+
+/* Teacher Dashboard Specific Colors */
+.teacher-dashboard-container .dashboard-box:nth-child(1) {
+  background-color: #8e44ad; /* Purple for Teacher Dashboard */
+}
+
+.teacher-dashboard-container .dashboard-box:nth-child(2) {
+  background-color: #16a085; /* Teal for Teacher Dashboard */
+}
+
+.teacher-dashboard-container .dashboard-box:nth-child(3) {
+  background-color: #2980b9; /* Blue for Teacher Dashboard */
+}
+
+.teacher-dashboard-container .dashboard-box:nth-child(4) {
+  background-color: #f39c12; /* Orange for Teacher Dashboard */
+}
+
+.teacher-dashboard-container .dashboard-box:nth-child(5) {
+  background-color: #2c3e50; /* Dark Gray for Teacher Dashboard */
+}
+
+/* Hover Effects for Dashboard Boxes */
+.dashboard-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Elevation on hover */
+  filter: brightness(1.1); /* Slight brightening on hover */
+}
+
+.dashboard-box:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Teacher Dashboard Specific Styles */
+.teacher-dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.teacher-dashboard-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 25px;
+  width: 220px;
+  height: 120px;
+  border-radius: 12px;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.teacher-dashboard-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Larger hover shadow */
+  filter: brightness(1.1);
+}
+
+/* Form Styles */
+form {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff; /* White background for form */
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+input {
+  border: 1px solid #ccc;
+  background-color: #f8f9fa; /* Soft background for input fields */
+  color: #2c3e50;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #3498db; /* Blue focus border */
+  background-color: #fff; /* Lighter background on focus */
+}

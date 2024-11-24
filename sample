@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light teal background */
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: center;
+    background: #2c3e50; /* Dark blue-gray for navigation */
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  nav a {
+    color: #ecf0f1; /* Light grayish text */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #f39c12; /* Vibrant yellow on hover */
+    transform: scale(1.1); /* Slight scale on hover for emphasis */
+  }
+  
+  /* Heading Styles */
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #34495e; /* Darker color for the heading */
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  /* Form Styles */
+  form {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff; /* White background for form */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+  }
+  
+  input,
+  button {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+  }
+  
+  /* Input Field Styles */
+  input {
+    border: 1px solid #ccc;
+    background-color: #f8f9fa; /* Soft background for input fields */
+    color: #2c3e50;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #3498db; /* Blue focus border */
+    background-color: #fff; /* Lighter background on focus */
+  }
+  
+  /* Dashboard Box Styles */
+  .dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .dashboard-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .dashboard-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Elevation on hover */
+  }
+  
+  .dashboard-box:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
